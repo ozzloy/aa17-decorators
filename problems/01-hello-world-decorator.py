@@ -22,6 +22,7 @@ def hello_world_decorator(func):
         print("goodbye")
 
 
+@hello_world_decorator
 def world():
     print("World")
 
