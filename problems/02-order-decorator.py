@@ -24,7 +24,7 @@
 def order_decorator(func):
     def inner_func(foo):
         print(1)
-        func()
+        bar = func(foo)
 
     return inner_func
 
