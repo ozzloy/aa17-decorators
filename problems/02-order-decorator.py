@@ -31,6 +31,7 @@ def order_decorator(func):
     return inner_func
 
 
+@order_decorator
 def middle(num):
     print(num)
     return num * num
