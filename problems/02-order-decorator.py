@@ -22,9 +22,9 @@
 
 # Write your function here.
 def order_decorator(func):
-    def inner_func(foo):
+    def inner_func(var1):
         print(1)
-        bar = func(foo)
+        bar = func(var1)
 
     return inner_func
 
