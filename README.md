@@ -10,14 +10,16 @@ In this practice, you will work with Python decorators.
 
 ## Usage
 
-The __problems__ directory contains the code that you need to complete. Open
-each file and follow the instructions inside to complete the code.
+The __problems__ directory contains the code that you need to
+complete. Open each file and follow the instructions inside to
+complete the code.
 
-When you have finished, go to the terminal and run `python <file-name>`. For
-example, if you have completed the code in __01-hello-world-decorator.py__ and
-want to see its output, run `python problems/01-hello-world-decorator.py` from
-the root directory (or simply `python 01-hello-world-decorator.py` from inside
-the __problems__ directory).
+When you have finished, go to the terminal and run `python
+<file-name>`. For example, if you have completed the code in
+__01-hello-world-decorator.py__ and want to see its output, run
+`python problems/01-hello-world-decorator.py` from the root directory
+(or simply `python 01-hello-world-decorator.py` from inside the
+__problems__ directory).
 
-After running your code, check the output in the terminal to make sure it is
-correct.
+After running your code, check the output in the terminal to make sure
+it is correct.
