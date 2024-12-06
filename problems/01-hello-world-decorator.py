@@ -21,10 +21,12 @@ def hello_world_decorator(func):
         func()
         print("goodbye")
 
+    return inner_func
 
-# when you call the world function, it'll be passed in to the
-# hello world decorator and the function that is returned from
-# that will be assigned to "world"
+
+# when you call the world function, it'll be passed in to the hello
+# world decorator and the function that is returned from that will be
+# assigned to "world"
 @hello_world_decorator
 def world():
     print("World")
